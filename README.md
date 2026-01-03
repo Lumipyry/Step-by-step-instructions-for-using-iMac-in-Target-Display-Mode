@@ -4,7 +4,7 @@
 
 This is a detailed step-by-step installation instruction for Florian Echtler's [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/FreekMank) .
 
-_By using this script you can use iMac in Linux as an External Display in Target Display Mode_.
+By using this script you can use iMac in Linux as an External Display in Target Display Mode.
 
 Target Display Mode is set **On** and **Off** by pressing Powerbutton.
 
@@ -12,7 +12,7 @@ Applicable with iMac models [2009 - 2014](https://support.apple.com/en-us/105126
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable (although Apple Support page says this needs Thunderbolt cable - keep in mind that iMacs 2009-2010 do not support Thunderbolt).
 
-The **Off** may not always work (but long pressing of power button naturally shuts down the computer).
+The Off may not always work (but long pressing of power button naturally shuts down the computer).
 
 ***
 
