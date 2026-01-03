@@ -1,0 +1,7 @@
+1. Download smc_util to home directory (In the intended display machine):
+
+# Source - https://superuser.com/a/1932626
+# Posted by H2onvety, modified by community. See post 'Timeline' for change history
+# Retrieved 2026-01-03, License - CC BY-SA 4.0
+
+$ git clone https://github.com/floe/smc_util.git
