@@ -13,6 +13,8 @@ Proven to work with MiniDisplay Port cable. No personal experiences with Thunder
 
 The Off may not always work (but long pressing of power button naturally shuts down the computer).
 
+This text is also in https://superuser.com/questions/1932625/use-imac-in-linux-as-an-external-display-in-target-display-mode/1932626#1932626
+
 ***
 
 **NOTE**: You may want to leave `rc.local` out of the installation (`Step 16`) - if and when you want also use the Linux OS of the display machine. (`rc.local` makes the machine boot directly to Target Display Mode)
@@ -37,7 +39,7 @@ gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
 ```
 touch tdm_toggle.sh powerbutton powerbutton.sh rc.local
 ```
-5.Change content of tdm_off.sh
+5.Change content of file tdm_off.sh
 ```
 #!/bin/bash
 rm -f tdm_started
@@ -47,7 +49,7 @@ sleep 1
 sleep 2
 DISPLAY=:0.0 xrandr --output eDP --auto
 ```
-6.Change content of tdm_on.sh
+6.Change content of file tdm_on.sh
 ```
 #!/bin/bash
 ./SmcDumpKey MVHR 1
@@ -57,7 +59,7 @@ sleep 2
 DISPLAY=:0.0 xrandr --output eDP --off
 touch tdm_started
 ```
-7.Create content to tdm_toggle.sh
+7.Create content to file tdm_toggle.sh
 ```
 #!/bin/bash
 pushd $(dirname "${BASH_SOURCE[0]}")
