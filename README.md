@@ -1,29 +1,14 @@
-# smc_util
-Apple System Management Control (SMC) utility
+<img width="510" height="340" alt="target-display-mode3" src="https://github.com/user-attachments/assets/eef72173-3e8b-44b0-b0c7-486198486a29" />
 
-Forked from original smc_util repository, with a couple of other, slightly modified, SMC-related tools:
-* powermetrics.d from https://gist.github.com/beltex/acbbeef815a7be938abf
-* SmcDumpKey.c from https://www.contrib.andrew.cmu.edu/~somlo/OSXKVM/
 
-# How to use
+This is a detailed step-by-step installation instruction for Florian Echtler's https://github.com/floe/smc_util including Powerbutton support https://github.com/floe/smc_util/pull/11 by https://github.com/FreekMank .
 
-Chances are you're here because of my [blog post](https://floe.butterbrot.org/matrix/hacking/tdm/) or [SO question](https://stackoverflow.com/questions/43491594/reverse-engineering-the-target-display-mode-on-an-imac/), and want to use this to turn an old iMac running Linux into a display.
+By using this script you can use iMac in Linux as an External Display in Target Display Mode.
 
-_Note_: This was tested on a mid-2010 27" iMac running Yosemite and Ubuntu 16.04. Any other model/OS combo might behave differently.
+Target Display Mode is set “on” and “off’ by pressing Powerbutton.
 
-_Note_: I don't have the iMac I used for this anymore, so I can't test anything, sorry. That being said, the steps to use this are (on Ubuntu and derivatives):
+Applicable with iMac models 2009 - 2014 https://support.apple.com/en-us/105126. Needs to have Apple High Sierra or earlier (Dual boot with Linux) in the machine which is used as external display.
 
-```
-sudo apt-get install build-essential
+Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable (although Apple Support page says this needs Thunderbolt cable - keep in mind that iMacs 2009-2010 do not support Thunderbolt).
 
-git clone https://github.com/floe/smc_util.git
-cd smc_util
-
-gcc -O2 -o SmcDumpKey SmcDumpKey.c -Wall
-sudo rmmod applesmc # remove the SMC kernel driver to avoid conflicts
-
-sudo ./tdm_on.sh # enable target display mode
-sudo ./tdm_off.sh # disable target display mode
-```
-
-__IMPORTANT__: when you run `tdm_on.sh` and it works on your iMac, then the display will switch over to the DP input and you won't have the console anymore. Make sure you have a remote shell open first, or maybe a keyboard hotkey set up, so you can also run `tdm_off.sh` again to switch back to the internal iMac graphics.
+The "off" may not always work (but long pressing of power button naturally shuts down the computer).
