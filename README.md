@@ -14,7 +14,7 @@ Proven to work with MiniDisplay Port cable. No personal experiences with Thunder
 
 The "off" may not always work (but long pressing of power button naturally shuts down the computer).
 
---------------------------------------------------------
+***
 
 NOTE: You may want to leave `rc.local` out of the installation (`Step 16`) - if and when you want also use the Linux OS of the display machine. (`rc.local` makes the machine boot directly to Target Display Mode)
 
