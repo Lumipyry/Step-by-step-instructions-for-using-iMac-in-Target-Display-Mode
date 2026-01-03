@@ -12,7 +12,7 @@ Applicable with iMac models 2009 - 2014 https://support.apple.com/en-us/105126. 
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable (although Apple Support page says this needs Thunderbolt cable - keep in mind that iMacs 2009-2010 do not support Thunderbolt).
 
-The "off" may not always work (but long pressing of power button naturally shuts down the computer).
+The **Off** may not always work (but long pressing of power button naturally shuts down the computer).
 
 ***
 
