@@ -12,7 +12,7 @@ Applicable with iMac models [2009 - 2014](https://support.apple.com/en-us/105126
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable (although Apple Support page says this needs Thunderbolt cable - keep in mind that iMacs 2009-2010 do not support Thunderbolt).
 
-The Off may not always work (but long pressing of power button naturally shuts down the iMac).
+The Off to work first disable second display in your primary machine - then press Powerbutton in the display iMac.
 
 This text is also in https://superuser.com/questions/1932625/use-imac-in-linux-as-an-external-display-in-target-display-mode/1932626#1932626
 
