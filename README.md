@@ -8,11 +8,11 @@ This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_ut
 
 Target Display Mode is set On and Off by pressing Powerbutton.
 
-Applicable with iMac models [2009 - 2014](https://support.apple.com/en-us/105126). Needs to have Apple High Sierra or earlier (Dual boot with Linux) in the machine which is used as external display.
+Applicable with iMac models [2009 - 2014](https://support.apple.com/en-us/105126). Needs to have Apple High Sierra or earlier (Dual boot with Linux) in the iMac which is used as external display.
 
 Proven to work with MiniDisplay Port cable. No personal experiences with Thunderbolt cable (although Apple Support page says this needs Thunderbolt cable - keep in mind that iMacs 2009-2010 do not support Thunderbolt).
 
-The Off to work first disable second display in your primary machine - then press Powerbutton in the display iMac.
+The Off to work - First disable second display in your primary computer - then press Powerbutton in the display iMac.
 
 This text is also in https://superuser.com/questions/1932625/use-imac-in-linux-as-an-external-display-in-target-display-mode/1932626#1932626
 
