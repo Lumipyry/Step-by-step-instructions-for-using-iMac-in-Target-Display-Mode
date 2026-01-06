@@ -4,7 +4,7 @@
 ######
 
 
-This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank](https://github.com/FreekMank).
+This is a step-by-step instruction for [smc_util](https://github.com/floe/smc_util) including [Powerbutton support](https://github.com/floe/smc_util/pulls) by [FreekMank]([https://github.com/FreekMank](https://github.com/floe/smc_util/pull/11/commits)).
 
 Target Display Mode is set On and Off by pressing Powerbutton.
 
